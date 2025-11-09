@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: var(--font-poppins), sans-serif;
+  background-color: #F8F6F1;
+}
+
+body {
+  margin: 0;
+  color: #1A3C40;
+  background-color: #F8F6F1;
+}
+
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid #B22222;
+  outline-offset: 2px;
+}
